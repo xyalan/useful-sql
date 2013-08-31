@@ -1,8 +1,10 @@
-Oracle中start with...connect by prior子句用法 connect by 是结构化查询中用到的，其基本语法是： 
-select ... from tablename start with 条件1 
-connect by 条件2 
-where 条件3; 
-例： 
-select * from table 
-start with org_id = 'HBHqfWGWPy' 
-connect by prior org_id = parent_id; 
+# Oracle中start with...connect by prior子句用法 connect by 是结构化查询中用到的，其基本语法是： 
+
+    select ... from tablename start with 条件1 
+    connect by 条件2 
+    where 条件3; 
+    
+    例： 
+    select * from table 
+    start with org_id = 'HBHqfWGWPy' 
+    connect by prior org_id = parent_id; 
