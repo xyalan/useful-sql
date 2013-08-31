@@ -1,4 +1,4 @@
-# Oracle中start with...connect by prior子句用法 connect by 是结构化查询中用到的，其基本语法是： 
+    Oracle中start with...connect by prior子句用法 connect by 是结构化查询中用到的，其基本语法是： 
 
     select ... from tablename start with 条件1 
     connect by 条件2 
